@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/fullpage.js/dist/fullpage.css">
+    <link rel="stylesheet" href="style/index.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="style/slick-theme.css"/>
+</head>
+<body>
+<div class="l-wrapper">
+    <div class="inner-block">
+        <div id="fullpage" class="wrapper">
+            <div class="section">
+                <div class="section__alight">
+                    <div class="section__alight-item text ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                            dolore eaque incidunt laudantium, libero nobis ratione sed sequi temporibus velit.</p>
+                    </div>
+                    <img class="section__alight-item first_section_img" src="https://via.placeholder.com/250x150" alt="">
+                    <div class="section__alight-item more-text deep">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur
+                            dignissimos facere incidunt laudantium sapiente similique velit? Ad aliquid
+                            amet atque aut autem consectetur consequuntur deleniti dolorum enim id incidunt
+                            iusto nemo nostrum odio perferendis possimus quae qui, reprehenderit sequi?</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section">
+                <img class="section__img" src="img/section2.jpg" alt="">
+            </div>
+            <div class="section ">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="slider-item">
+                            <img src="img/11.jpg" alt="">
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/22.jpg" alt="">
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/33.jpg" alt="">
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/44.jpg" alt="">
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/55.jpg" alt="">
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/66.jpg" alt="">
+                        </div>
+                        <div class="slider-item">
+                            <img src="img/77.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
+
+<script type="text/javascript">
+
+
+    $('.slider').slick({
+        infinite: true,
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        swipeToSlide: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+    let myFullpage = new fullpage('#fullpage', {
+        parallax: false,
+        navigation: true,
+        navigationPosition: 'right',
+
+    });
+
+
+
+
+
+</script>
+</body>
+</html>

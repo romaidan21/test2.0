@@ -1,0 +1,23 @@
+@import "scss/wrapper.css";
+@import "scss/section.css";
+
+
+body{
+  margin: 0;
+  padding: 0;
+
+
+  p{
+    margin: 0;
+  }
+}
+
+.l-wrapper{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+

@@ -1,0 +1,51 @@
+@import "scss/wrapper.css";
+@import "scss/section.css";
+body {
+  margin: 0;
+}
+body p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.l-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.inner-block {
+  height: calc(100% - 100px);
+  width: calc(100% - 200px);
+  border: 2px solid;
+  overflow: hidden;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.slider {
+  display: block !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.slick-slide {
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=index.css.map */
