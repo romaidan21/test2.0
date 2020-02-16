@@ -107,7 +107,8 @@ html.fp-enabled,
     -webkit-transform: translate3d(0,0,0);
 }
 #fp-nav.fp-right {
-    right: 33px;
+    right:5%;
+    transform: translate(50%, 0);
 }
 #fp-nav.fp-left {
     left: 17px;
@@ -137,8 +138,8 @@ html.fp-enabled,
 #fp-nav ul li,
 .fp-slidesNav ul li {
     display: block;
-    width: 14px;
-    height: 13px;
+    width: 8px;
+    height: 8px;
     margin: 50px 10px;
     position:relative;
 }
@@ -175,7 +176,7 @@ html.fp-enabled,
     background: #333;
     left: 50%;
     top: 50%;
-    margin: -2px 0 0 -2px;
+    /*margin: -2px 0 0 -2px;*/
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
