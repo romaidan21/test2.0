@@ -5,17 +5,27 @@
 .section__alight {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 .section__alight-item {
-  margin: 5px;
   width: 30%;
-  min-width: 250px;
+  min-width: 260px;
+  padding: 5px;
 }
 .section__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section__alight {
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+  }
+  .section__alight-item {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=section.css.map */

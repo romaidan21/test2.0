@@ -6,12 +6,11 @@
   &__alight{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 
     &-item{
-      margin: 5px;
       width: 30%;
-      min-width: 250px;
+      min-width: 260px;
+      padding: 5px;
     }
   }
 
@@ -23,3 +22,18 @@
   }
 
 
+@media only screen and (max-width: 1024px) {
+  .section{
+
+    &__alight{
+      flex-direction: column;
+      align-items: center;
+      height: 70%;
+
+      &-item{
+        width: 50%;
+      }
+    }
+
+  }
+}
