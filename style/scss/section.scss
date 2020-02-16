@@ -37,3 +37,14 @@
 
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .section{
+
+    &__alight{
+      font-size: 14px;
+    }
+
+  }
+}
+
