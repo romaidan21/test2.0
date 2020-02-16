@@ -22,6 +22,7 @@
     flex-direction: column;
     align-items: center;
     height: 70%;
+    padding: 5px 0;
   }
   .section__alight-item {
     width: 50%;
